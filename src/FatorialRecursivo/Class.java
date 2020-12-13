@@ -12,6 +12,6 @@ public class Class {
 		// Functional Paradigm
 		UnaryOperator<Integer> multiplicateValueTre = functionalValue -> functionalValue*3;
 		int functionalValue = 10;
-		System.out.println("The result is :: " + multiplicateValueTre.apply(10));
+		System.out.println("The result is :: " + multiplicateValueTre.apply(functionalValue));
 	}
 }
