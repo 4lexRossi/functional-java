@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 public class Consumers {
 	public static void main(String[] args) {
 		
-		Consumer<String> print = System.out::println;
+		Consumer<String> print = System.out::println;//reference method
 		print.accept("Hello World");
 		
 		Consumer<String> print1 = sentence -> System.out.println(sentence);//lambda pure
